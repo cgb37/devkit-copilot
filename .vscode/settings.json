@@ -1,0 +1,16 @@
+{
+    "github.copilot.chat.reviewSelection.instructions": [
+        "Check quickly for OWASP Top 10 risks (injection, auth, access control)",
+        "Flag secrets/hardcoded credentials and suggest minimal secure fixes"
+    ],
+
+    
+    "terminal.integrated.profiles.osx": {
+    "zsh (login)": {
+        "path": "/bin/zsh",
+        "args": ["-l"]
+    }
+    },
+    "terminal.integrated.defaultProfile.osx": "zsh (login)"
+    
+}
