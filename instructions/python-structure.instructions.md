@@ -5,28 +5,24 @@ applyTo: '**/*.py'
 
 # Python Structure Instructions
 
-## File Size Management
-- Keep files under 300 lines
-- Split large files into focused modules
-- Break down large classes into smaller ones
-- Extract related functionality to separate files
+> **Note:** This doc extends [Core Python Instructions](python-core.instructions.md).  
+> For style, typing, security, and error handling, see Core.
 
-## Module Organization
-- Module docstring first
-- Imports second
-- Constants third
-- Helper functions fourth
-- Main classes/functions fifth
-- Entry point last
+## File Size & Modules
+- Keep files under ~300 lines; split large ones into focused modules.
+- Break down large classes; extract related functionality to separate files.
+- Avoid “god” modules.
+
+## Module Layout
+1. Module docstring  
+2. Imports  
+3. Constants  
+4. Helper functions  
+5. Main classes/functions  
+6. Entry point  
 
 ## Function Design
-- Write single-responsibility functions
-- Aim for 10-20 lines per function
-- Extract complex logic into helper functions
-- Compose complex functionality from simple functions
-
-## Atomization
-- One function, one purpose
-- Pure functions when possible (no side effects)
-- Return new data instead of modifying input
-- Use descriptive parameter and return types
+- Single-responsibility functions (10–20 lines typical).
+- Pure functions when possible (no side effects).
+- Use descriptive parameter and return types.
+- Compose complex behavior from small helpers.
